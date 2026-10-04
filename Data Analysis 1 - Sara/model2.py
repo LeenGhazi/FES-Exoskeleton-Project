@@ -6,7 +6,7 @@ It is the reference the other models have to beat: a model that does not score b
 has learned nothing from the EMG.
 
 The label, filtering, features and windowing come from src/emg_pipeline.py and the test protocol from
-src/model_runner.py. This file lives in "Data Analysis 1 - Sara/".
+src/model_runner.py.
 
 Usage (run from the repository root)
   python "Data Analysis 1 - Sara/model2.py"                  cross-validate on the files in Data/

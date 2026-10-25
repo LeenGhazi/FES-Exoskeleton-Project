@@ -1,0 +1,2 @@
+Model,Validation Accuracy,Test Accuracy,Macro F1,Number of Classes,Training Samples,Testing Samples
+Baseline,0.3112745098039216,0.3009478672985782,0.09253187613843351,5,1289,422

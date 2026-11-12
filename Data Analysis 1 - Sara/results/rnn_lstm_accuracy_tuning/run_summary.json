@@ -1,0 +1,33 @@
+{
+  "selection_metric": "bilateral_accuracy",
+  "selected_configuration": {
+    "units": 32,
+    "dropout": 0.3,
+    "learning_rate": 0.001,
+    "weight_power": 0.0,
+    "left_loss_weight": 1.0,
+    "last_window_skip": false,
+    "architecture": "bilstm",
+    "name": "paper_inspired_bilstm"
+  },
+  "validation_score": 0.6056701030927835,
+  "test_left_accuracy": 0.6741293532338308,
+  "test_right_accuracy": 0.7910447761194029,
+  "test_bilateral_accuracy": 0.599502487562189,
+  "test_average_macro_f1": 0.5560681267400323,
+  "train_trials": [
+    1,
+    2,
+    3
+  ],
+  "validation_trials": [
+    4
+  ],
+  "test_trials": [
+    5
+  ],
+  "sequence_length": 5,
+  "neutral_L": 101.62686114319813,
+  "neutral_R": 101.0616092669301,
+  "target_definition": "original per-recording 95th-percentile tilt bins"
+}
